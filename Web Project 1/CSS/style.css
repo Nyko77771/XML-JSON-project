@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+Index Page Styling:
+*/
+#index {
+  min-height: 100vh;
+}
+.blue {
+  color: rgb(0, 0, 60);
+}
+#title {
+  text-align: center;
+}
+.btn {
+  margin-bottom: 1%;
+}
+
+/*
+Other Pages Styling:
+*/
+#backToMain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2px;
+  margin: 2px 5px 0 5px;
+}
+#productCodes {
+  padding: 2%;
+  margin: 4% 0 4% 0%;
+  text-align: center;
+}
+#details {
+  margin-bottom: 2%;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+#columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+#columns div {
+  margin: 0 1% 0 1%;
+  white-space: nowrap;
+}
+#search {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  font-size: large;
+  width: 100%;
+  margin-top: 10px;
+}
+#searchTitle label {
+  font-size: larger;
+}
+#searchInput {
+  min-width: 60%;
+}
+#searchButton,
+#searchButton2 {
+  margin-top: 1%;
+  color: wheat;
+  background-color: rgb(31, 179, 179);
+}
+#details {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#details table {
+  text-align: center;
+  min-width: 85%;
+}
+
+/*
+Weather Page Styling
+*/
+
+#title {
+  margin-top: 5%;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  font-size: x-large;
+}
+#search2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5%;
+  width: 100%;
+}
+#searchTitle {
+  text-align: center;
+  font-size: x-large;
+}
+
+#searchInput2:hover {
+  border-color: cornflowerblue;
+}
+#searchButton2:hover {
+  color: black;
+  background-color: cornflowerblue;
+}
+#searchbar2 {
+  text-align: center;
+  width: 100%;
+}
+#searchInput2 {
+  height: 30px;
+  width: 300px;
+}
+input[type="text"] {
+  font-size: large;
+}
+#searchButton2 {
+  height: 30px;
+  font-size: large;
+}
+#informationDisplay {
+  padding: 2%;
+  margin-top: 1%;
+}
+
+#amendedTable {
+  font-size: large;
+}
+#icon {
+  text-align: center;
+}

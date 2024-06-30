@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Page</title>
+    <script src="jQuery/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!--Used Font Awesome for Arrow symbol-->
+    <script
+      src="https://kit.fontawesome.com/11d40861b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="JavaScript/script.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div id="backToMain">
+        <!--Font Awesome made Arrow symbol-->
+        <a href="index.html">
+          <i class="fa-solid fa-arrow-left"></i>
+          Back to Main
+        </a>
+      </div>
+      <!--Searchbar for inputing provided codes-->
+      <div id="title">
+        <h1 class="blue">Weather App</h1>
+      </div>
+      <div id="search2">
+        <div id="searchTitle">
+          <label for="searchbar">Search City:</label>
+        </div>
+        <div id="searchbar2">
+          <input type="text" name="searchbar" id="searchInput2" />
+          <input type="button" value="Search" id="searchButton2" />
+        </div>
+      </div>
+      <div id="informationDisplay">
+        <table id="amendedTable"></table>
+      </div>
+    </div>
+  </body>
+</html>

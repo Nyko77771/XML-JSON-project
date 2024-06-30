@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Inventory>
+    <Guitar>
+        <Name>AM Pro 2 Stratocaster</Name>
+        <Brand>Fender</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Alder</Body>
+            <Neck>Maple</Neck>
+            <Fingerboard>Rosewood</Fingerboard>
+        </Material>
+        <Colour>Mystic Surf Green</Colour>
+        <Fret>22</Fret>
+        <Case>Case Included</Case>
+        <Price>2000</Price>
+        <Available>Yes</Available>
+        <Stock>5</Stock>
+        <Code>AMPRO2MG</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>Les Paul Std 60s</Name>
+        <Brand>Gibson</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Mahogany</Body>
+            <Neck>Mahogany</Neck>
+            <Fingerboard>Rosewood</Fingerboard>
+        </Material>
+        <Colour>Iced Tea</Colour>
+        <Fret>22</Fret>
+        <Case>Case Included</Case>
+        <Price>2500</Price>
+        <Available>Yes</Available>
+        <Stock>7</Stock>
+        <Code>LESP60IT</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>G2622 Streamliner</Name>
+        <Brand>Gretsch</Brand>
+        <Shape>Hollow Body</Shape>
+        <Material>
+            <Body>Maple</Body>
+            <Neck>Nato</Neck>
+            <Fingerboard>Rosewood</Fingerboard>
+        </Material>
+        <Colour>Walnut Stain</Colour>
+        <Fret>22</Fret>
+        <Case>Case Not Included</Case>
+        <Price>650</Price>
+        <Available>Yes</Available>
+        <Stock>4</Stock>
+        <Code>G2622SWS</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>RG550</Name>
+        <Brand>Ibanez</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Basswood</Body>
+            <Neck>Maple/Walnut</Neck>
+            <Fingerboard>Maple</Fingerboard>
+        </Material>
+        <Colour>Desert Sun Yellow</Colour>
+        <Fret>24</Fret>
+        <Case>Case Included</Case>
+        <Price>1000</Price>
+        <Available>No</Available>
+        <Stock>0</Stock>
+        <Code>IRG550DS</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>Power Player Les Paul</Name>
+        <Brand>Epiphone</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Mahogany</Body>
+            <Neck>Mahogany</Neck>
+            <Fingerboard>Laurel</Fingerboard>
+        </Material>
+        <Colour>Dark Matter</Colour>
+        <Fret>24</Fret>
+        <Case>Case Included</Case>
+        <Price>330</Price>
+        <Available>No</Available>
+        <Stock>0</Stock>
+        <Code>EPPPLPDM</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>Vibe 60's Jazzmaster</Name>
+        <Brand>Squier</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Poplar</Body>
+            <Neck>Maple</Neck>
+            <Fingerboard>Indian Laurel</Fingerboard>
+        </Material>
+        <Colour>Olympic White</Colour>
+        <Fret>21</Fret>
+        <Case>Case Included</Case>
+        <Price>350</Price>
+        <Available>Yes</Available>
+        <Stock>5</Stock>
+        <Code>SCV60JOW</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>Custom 24</Name>
+        <Brand>PRS SE</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Mahogany</Body>
+            <Neck>Maple</Neck>
+            <Fingerboard>Rosewood</Fingerboard>
+        </Material>
+        <Colour>Tobacco Sunburst</Colour>
+        <Fret>24</Fret>
+        <Case>Case Not Included</Case>
+        <Price>1100</Price>
+        <Available>Yes</Available>
+        <Stock>2</Stock>
+        <Code>PRSC24TS</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>Pacifica 112V</Name>
+        <Brand>Yamaha</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Alder</Body>
+            <Neck>Maple</Neck>
+            <Fingerboard>Rosewood</Fingerboard>
+        </Material>
+        <Colour>Rasberry Red</Colour>
+        <Fret>22</Fret>
+        <Case>Case Included</Case>
+        <Price>380</Price>
+        <Available>Yes</Available>
+        <Stock>8</Stock>
+        <Code>YP112VRR</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>Baretta Special</Name>
+        <Brand>Kramer</Brand>
+        <Shape>Solid Body</Shape>
+        <Material>
+            <Body>Mahogany</Body>
+            <Neck>Maple</Neck>
+            <Fingerboard>Rosewood</Fingerboard>
+        </Material>
+        <Colour>Candy Blue</Colour>
+        <Fret>22</Fret>
+        <Case>Case Not Included</Case>
+        <Price>300</Price>
+        <Available>Yes</Available>
+        <Stock>10</Stock>
+        <Code>KRAMBSCB</Code>
+    </Guitar>
+
+    <Guitar>
+        <Name>Hollowbody 2 Piezo</Name>
+        <Brand>PRS SE</Brand>
+        <Shape>Hollow Body</Shape>
+        <Material>
+            <Body>Carved Maple/Mahogany</Body>
+            <Neck>Mahogany</Neck>
+            <Fingerboard>Rosewood</Fingerboard>
+        </Material>
+        <Colour>Peacock Blue</Colour>
+        <Fret>22</Fret>
+        <Case>Case Not Included</Case>
+        <Price>1400</Price>
+        <Available>Yes</Available>
+        <Stock>5</Stock>
+        <Code>PRSH2PPB</Code>
+    </Guitar>
+
+</Inventory>
+
+<!--Guitar information taken from: https://www.musicradar.com/news/the-best-electric-guitars#section-best-les-paul-->

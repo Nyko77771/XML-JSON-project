@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Page</title>
+    <script src="jQuery/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--Used Font Awesome for Arrow symbol-->
+    <script src="https://kit.fontawesome.com/11d40861b7.js" crossorigin="anonymous"></script>
+    <script src="JavaScript/script.js"></script>
+</head>
+<body>
+    <div class="content productMain">
+<!--Button to go back to main-->
+        <div id="backToMain">
+            <!--Font Awesome made Arrow symbol-->
+                <a href="index.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Back to Main
+                </a>
+        </div>
+
+            <div id="productCodes">
+                <!--Codes for Guitars that are in inventory-->
+                <h1>Products Page</h1>
+                <h3><i>Guitar Code (In Bold):</i></h3>
+                <div id="columns">
+                    <div>
+                        <ul>
+                            <li>Fender AM Pro 2 - <b>AMPRO2MG</b></li>
+                            <li>Gibson LP 60 - <b>LESP60IT</b></li>
+                            <li>Gretsch G2622 - <b>G2622SWS</b></li>
+                            <li>Ibanez RG550 - <b>IRG550DS</b></li>
+                            <li>Epiphone Les Paul - <b>EPPPLPDM</b></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Squier Vibe 60 - <b>SCV60JOW</b></li>
+                            <li>PRS SE Custom 24 - <b>PRSC24TS</b></li>
+                            <li>Yamaha 112V - <b>YP112VRR</b></li>
+                            <li>Kramer Baretta - <b>KRAMBSCB</b></li>
+                            <li>PRS SE Piezo - <b>PRSH2PPB</b></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+
+            <!--Searchbar for inputing provided codes-->
+            <div id="search">
+                <div id="searchTitle">
+                    <label for="searchbar">Search Product Code:</label>
+                </div>
+                <div id="searchbar">
+                    <input type="text" name="searchbar" id="searchInput">
+                <input type="button" value="Search" id="searchButton">
+                </div>
+            </div>
+
+        </div>
+
+        <!--Hidden Div that shows results from search-->
+        <div id="details">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Material</th>
+                    <th>Colour</th>
+                    <th>Case</th>
+                    <th>Price</th>
+                    <th>In Stock</th>
+                </tr>
+                <tr id="loadedDetails">
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
