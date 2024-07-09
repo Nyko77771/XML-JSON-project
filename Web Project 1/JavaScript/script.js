@@ -72,7 +72,7 @@ function inStock(value) {
 //User Entered Country
 var userCountry;
 //My API registration KEY
-var myKey = "fa430d1bdcaee43f9529698628ba44d9";
+var myKey = "";
 
 //Function to load JSON file from given URL
 async function loadJSON(url) {
